@@ -1,9 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T22:37:02.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.8" etag="WemaevXsivqy7D7p2zFp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T23:04:05.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NX-w4BMATqcWwZ4jQWS3" version="21.3.8" type="github">
   <diagram name="Page-1" id="nuE9NkLdTNWkJ6FNIzur">
-    <mxGraphModel>
+    <mxGraphModel dx="1323" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.613;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-1" target="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="260" />
+              <mxPoint x="318" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-1" target="KbGliY93UXcgOZ2XtKwM-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="260" />
+              <mxPoint x="530" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-1" target="KbGliY93UXcgOZ2XtKwM-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="260" />
+              <mxPoint x="90" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-1" value="Carrinho" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-8" value="- &lt;b&gt;int&lt;/b&gt; quantidadeProdutos&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; valorProdutos&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; valorFinal" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-1">
+          <mxGeometry x="10" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ adicionaProduto(&lt;b&gt;int&lt;/b&gt; codProduto)&lt;br&gt;+ removeProduto(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int&lt;/b&gt;&amp;nbsp;codProduto)&lt;br&gt;+ mostraCarrinho()&lt;br&gt;+ limpaCarrinho()&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-1">
+          <mxGeometry x="10" y="85" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-2" value="Sanduiches" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-11" value="- &lt;b&gt;String&lt;/b&gt; tipoSanduiche&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; codSanduiche&lt;br&gt;- &lt;b&gt;double &lt;/b&gt;precoSanduiche" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry x="10" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ adicionaExtras(&lt;b&gt;int&lt;/b&gt; codExtra)&lt;br&gt;+ removeExtras(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int&lt;/b&gt;&amp;nbsp;codExtra)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry x="10" y="103" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="97" as="sourcePoint" />
+            <mxPoint x="160" y="97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-14" value="- &lt;b&gt;String&lt;/b&gt; tipoBebida&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; codBebida&lt;br&gt;- &lt;b&gt;double &lt;/b&gt;precoBebida" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry x="240" y="26" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="93" as="sourcePoint" />
+            <mxPoint x="390" y="93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ tamanhoBebida(&lt;b&gt;int&lt;/b&gt;&amp;nbsp;tamanho)&lt;br&gt;+ colocaGelo(&lt;b&gt;)&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry x="240" y="99" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-17" value="- &lt;b&gt;String&lt;/b&gt; tipoSalada&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; codSaladda&lt;br&gt;- &lt;b&gt;double &lt;/b&gt;precoSalada" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry x="-200" y="26" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210" y="93" as="sourcePoint" />
+            <mxPoint x="-50" y="93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-19" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ adicionaExtras(&lt;b&gt;int&lt;/b&gt; codExtra)&lt;br&gt;+ removeExtras(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int&lt;/b&gt;&amp;nbsp;codExtra)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-2">
+          <mxGeometry x="-200" y="99" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-3" value="Bebidas" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="290" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-4" value="Saladas" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-5" value="Acompanhamentos" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="320" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-23" value="- &lt;b&gt;String&lt;/b&gt; tipoAcompanhamento&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; codAcompanhamento&lt;br&gt;- &lt;b&gt;double &lt;/b&gt;precoAcompanhamento" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-5">
+          <mxGeometry x="10" y="31" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="470" />
+              <mxPoint x="510" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="470" />
+              <mxPoint x="330" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.455;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-6" target="KbGliY93UXcgOZ2XtKwM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-6" value="Combos" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="500" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-26" value="- &lt;b&gt;String&lt;/b&gt; tipoSanduiche&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;- String&lt;/b&gt;&amp;nbsp;tipoBebida&lt;br&gt;- &lt;b&gt;String &lt;/b&gt;tipoAcompanhamento&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; codSanduiche&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;codBebida&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; codAcompanhamento&lt;br&gt;- &lt;b&gt;double &lt;/b&gt;precoCombo" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-6">
+          <mxGeometry x="10" y="25" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-7" value="Extras" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-20" value="- &lt;b&gt;String&lt;/b&gt; tipoExtra&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; codExtra&lt;br&gt;- &lt;b&gt;double &lt;/b&gt;precoExtra" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KbGliY93UXcgOZ2XtKwM-7">
+          <mxGeometry x="10" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="147" as="sourcePoint" />
+            <mxPoint x="470" y="147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbGliY93UXcgOZ2XtKwM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="KbGliY93UXcgOZ2XtKwM-9" target="KbGliY93UXcgOZ2XtKwM-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="260" />
+              <mxPoint x="757" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
