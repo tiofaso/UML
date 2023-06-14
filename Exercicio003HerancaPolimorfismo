@@ -1,43 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T21:29:47.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="z2h59GBlqXG1iGvnv4vE" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T23:34:49.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3qh9ZIkqf7ogOCkoPa2r" version="21.4.0" type="github">
   <diagram name="Page-1" id="hPqMlZovxmj3lbxdkt8M">
-    <mxGraphModel dx="548" dy="319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="454" dy="264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KJew8MluriGR794r0Ilv-1" value="Mamifero" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-1" value="Mamifero" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="140" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-2" value="-&amp;nbsp;&lt;b&gt;int&lt;/b&gt; SangueQuente&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; infanteAlimento&lt;br&gt;- &lt;b&gt;String&lt;/b&gt; ReinoAnimal&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiMamas&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KJew8MluriGR794r0Ilv-1">
+        <mxCell id="KJew8MluriGR794r0Ilv-2" value="-&amp;nbsp;&lt;b&gt;int&lt;/b&gt; SangueQuente&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; infanteAlimento&lt;br&gt;- &lt;b&gt;String&lt;/b&gt; ReinoAnimal&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiMamas&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KJew8MluriGR794r0Ilv-1" vertex="1">
           <mxGeometry x="9" y="30" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ comoSeAlimentaFilhote(&lt;b style=&quot;&quot;&gt;int tomaLeite&lt;/b&gt;)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ comoSeAlimentaFilhote(&lt;b style=&quot;&quot;&gt;int tomaLeite&lt;/b&gt;)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="318" y="243" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.918;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KJew8MluriGR794r0Ilv-3">
+        <mxCell id="KJew8MluriGR794r0Ilv-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.918;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="KJew8MluriGR794r0Ilv-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="240" as="sourcePoint" />
             <mxPoint x="420" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="KJew8MluriGR794r0Ilv-7" target="KJew8MluriGR794r0Ilv-1">
+        <mxCell id="KJew8MluriGR794r0Ilv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" source="KJew8MluriGR794r0Ilv-7" target="KJew8MluriGR794r0Ilv-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-7" value="Morcego" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-7" value="Morcego" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="330" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-8" value="-&amp;nbsp;&lt;b&gt;int&lt;/b&gt; SangueQuente&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; infanteAlimento&lt;br&gt;- &lt;b&gt;String&lt;/b&gt; ReinoAnimal&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiMamas&lt;br&gt;- &lt;b&gt;int&lt;/b&gt;&amp;nbsp;temAsas" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KJew8MluriGR794r0Ilv-7">
+        <mxCell id="KJew8MluriGR794r0Ilv-8" value="-&amp;nbsp;&lt;b&gt;int&lt;/b&gt; SangueQuente&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; infanteAlimento&lt;br&gt;- &lt;b&gt;String&lt;/b&gt; ReinoAnimal&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiMamas&lt;br&gt;- &lt;b&gt;int&lt;/b&gt;&amp;nbsp;temAsas" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KJew8MluriGR794r0Ilv-7" vertex="1">
           <mxGeometry x="9" y="20" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ comoSeAlimentaFilhote(&lt;b style=&quot;&quot;&gt;int tomaLeite&lt;/b&gt;)&lt;br&gt;+ ecolocalizacaoAtiva(&lt;b&gt;string&lt;/b&gt;&amp;nbsp;motivo)&lt;br&gt;+ voar(&lt;b&gt;int &lt;/b&gt;motivoVoo)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ comoSeAlimentaFilhote(&lt;b style=&quot;&quot;&gt;int tomaLeite&lt;/b&gt;)&lt;br&gt;+ ecolocalizacaoAtiva(&lt;b&gt;string&lt;/b&gt;&amp;nbsp;motivo)&lt;br&gt;+ voar(&lt;b&gt;int &lt;/b&gt;motivoVoo)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="318" y="434" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.918;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.918;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="436" as="sourcePoint" />
             <mxPoint x="510.78" y="436.09000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="KJew8MluriGR794r0Ilv-11">
+        <mxCell id="KJew8MluriGR794r0Ilv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="KJew8MluriGR794r0Ilv-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="280" as="targetPoint" />
             <Array as="points">
@@ -46,22 +46,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-11" value="Ornitorrinco" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-11" value="Ornitorrinco" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="330" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-12" value="-&amp;nbsp;&lt;b&gt;int&lt;/b&gt; SangueQuente&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; infanteAlimento&lt;br&gt;- &lt;b&gt;String&lt;/b&gt; ReinoAnimal&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiMamas&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiVeneno" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KJew8MluriGR794r0Ilv-11">
+        <mxCell id="KJew8MluriGR794r0Ilv-12" value="-&amp;nbsp;&lt;b&gt;int&lt;/b&gt; SangueQuente&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; infanteAlimento&lt;br&gt;- &lt;b&gt;String&lt;/b&gt; ReinoAnimal&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiMamas&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiVeneno" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KJew8MluriGR794r0Ilv-11" vertex="1">
           <mxGeometry x="9" y="20" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ comoSeAlimentaFilhote(&lt;b style=&quot;&quot;&gt;int tomaLeite&lt;/b&gt;)&lt;br&gt;+ botarOvo(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int &lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;jaPariu&lt;/span&gt;)&lt;br&gt;+ terVeneno(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;String &lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;sexoAnimal&lt;/span&gt;)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+ comoSeAlimentaFilhote(&lt;b style=&quot;&quot;&gt;int tomaLeite&lt;/b&gt;)&lt;br&gt;+ botarOvo(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int &lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;jaPariu&lt;/span&gt;)&lt;br&gt;+ terVeneno(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;String &lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;sexoAnimal&lt;/span&gt;)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="78" y="433" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.918;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.918;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="436" as="sourcePoint" />
             <mxPoint x="270.78" y="436.09000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="KJew8MluriGR794r0Ilv-15">
+        <mxCell id="KJew8MluriGR794r0Ilv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="KJew8MluriGR794r0Ilv-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="280" as="targetPoint" />
             <Array as="points">
@@ -71,16 +71,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-15" value="Gonfinho" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-15" value="Golfinho" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="540" y="330" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-16" value="-&amp;nbsp;&lt;b&gt;int&lt;/b&gt; SangueQuente&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; infanteAlimento&lt;br&gt;- &lt;b&gt;String&lt;/b&gt; ReinoAnimal&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiMamas&lt;br&gt;- &lt;b&gt;int&lt;/b&gt;&amp;nbsp;temNadadeiras" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KJew8MluriGR794r0Ilv-15">
+        <mxCell id="KJew8MluriGR794r0Ilv-16" value="-&amp;nbsp;&lt;b&gt;int&lt;/b&gt; SangueQuente&lt;br&gt;- &lt;b&gt;int&lt;/b&gt; infanteAlimento&lt;br&gt;- &lt;b&gt;String&lt;/b&gt; ReinoAnimal&lt;br&gt;- &lt;b&gt;int &lt;/b&gt;possuiMamas&lt;br&gt;- &lt;b&gt;int&lt;/b&gt;&amp;nbsp;temNadadeiras" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KJew8MluriGR794r0Ilv-15" vertex="1">
           <mxGeometry x="9" y="20" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;+ comoSeAlimentaFilhote(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int tomaLeite&lt;/b&gt;)&lt;br&gt;+ ecolocalizacaoAtiva(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;string&lt;/b&gt;&amp;nbsp;motivo)&lt;br&gt;+ respirar(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int &lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;subirSuperficie&lt;/span&gt;)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;+ comoSeAlimentaFilhote(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int tomaLeite&lt;/b&gt;)&lt;br&gt;+ ecolocalizacaoAtiva(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;string&lt;/b&gt;&amp;nbsp;motivo)&lt;br&gt;+ respirar(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;int &lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;subirSuperficie&lt;/span&gt;)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="548" y="422" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KJew8MluriGR794r0Ilv-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.918;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="KJew8MluriGR794r0Ilv-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.918;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="436" as="sourcePoint" />
             <mxPoint x="740.78" y="436.09000000000003" as="targetPoint" />
